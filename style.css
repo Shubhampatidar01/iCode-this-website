@@ -1,0 +1,334 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page{
+    height: 170%;
+    width: 100%;
+    background-color: #181028;
+}
+#nav{
+    height: 58px;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    top: 9%;
+    left: 35%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 39px;
+    margin-left: 10px;
+}
+#nav a:hover{
+    padding: 8px 8px;
+    background-color: rgb(200, 200, 207);
+    border-radius: 10px;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+#nav button{
+    padding: 11px 23px;
+    margin-right: 9px;
+    border-radius: 10px;
+    color: white;
+    background-color: #9971E4;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+#nav button:hover{
+    background-color:rgb(20, 51, 20) ;
+    color: rgb(207, 166, 159);
+    
+}
+#center{
+    height: 65%;
+    width: 60%;
+    position: relative;
+    top: 18%;
+    left: 20%;
+}
+#center h2{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+}
+#center h2 span{
+    color: #9971E4;
+}
+#center img{
+    margin-left: 31%;
+    margin-top: 7%;
+    height: 100px;
+    
+}
+#center h4{
+    font-size: 23px;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+}
+#center button{
+    padding: 25px 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #9971E4;
+    margin-left: 38%;
+    cursor: pointer;
+    margin-top: 5%;
+}
+#center button:hover{
+    background-color: #fff;
+    color: #181028;
+    transition: all ease 0.3s;
+
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#page1 #box{
+    height: 95%;
+    width: 60%;
+    background-color: #2C2446;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -32%;
+    overflow: hidden;
+}
+#page1 #box #inbox{
+    height: 82%;
+    width: 95%;
+    background-color: #fff;
+    background-image: url(https://media.istockphoto.com/id/1366693438/vector/circle-background-abstract-minimal-design-with-gradient-round-elements-modern-light-texture.jpg?s=612x612&w=0&k=20&c=kIAtBs0Yem6pfx1pk5UKBGfA0R83P_hekc6IGNmLCS0=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    position: relative; 
+    border-radius: 10px;
+    top: 12%;
+}
+#box img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -59.9px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+}
+#inbox #crl{
+    height:60px;
+    width: 60px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 99;
+    top: 15px;
+    left: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgb(185, 179, 179);
+}
+#inbox #crl i{
+    font-size: 28px;
+    font-weight: 700;
+}
+#page2{
+    height: 70%;
+    width: 100%;
+
+}
+#page2 h4{
+    text-align: center;
+    margin-top: -25px;
+}
+#page2 h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+#page2 #four{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 92%;
+    height: 70%;
+    display: flex;
+    background-color: violet;
+}
+#four #first{
+    height: 100%;
+    width: 25%;
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+}
+#page2 img{
+    height: 90px;
+}
+#page2 h1{
+    padding: 10px 0px;
+}
+#page2 h5{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #181028;
+    margin-top: 3%;
+}
+#page3 h1{
+    color: #fff;
+    font-size: 58px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+#que{
+    height: 100px;
+    width: 60%;
+    position: relative;
+    top: 25%;
+    left: 20%;
+    border-top: 1px solid #b8abab;
+    border-bottom: 1px solid #b8abab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#page3 h3{
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+}
+#que i{
+    font-size: 29px;
+    font-weight: 400;
+    color: #fff;
+}
+#page3 .last{
+    border-bottom: none;
+}
+#page4{
+    height: 120%;
+    width: 100%;
+}
+#page4 h1{
+    text-align: center;
+    padding-top: 5%;
+    font-family: main;
+}
+#page4 h2{
+    text-align: center;
+    padding-top: 40px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4%;
+  }
+
+  .swiper-slide img {
+    margin-top: 4%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 48.5%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .swiper-slide a1{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .swiper-slide a2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+  }
+
+#page4 h3{
+    position: relative;
+    top: 12%;
+    text-align: center;
+    font-size: 46px;
+}
+#page4>button{
+    padding: 25px 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 9%;
+    margin-left: 43%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #8153d6;
+    cursor: pointer;
+}
+#page4>button:hover{
+    background-color: rgb(23, 71, 23);
+    color: bisque;
+}
+#end{
+    height: 20%;
+    width: 100%;
+    background-color: #181028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10% ;
+}
+#end img{
+    height: 100px;
+}
+#end h3 i{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 7px;
+}
+#end a{
+    text-decoration: none;
+    color: #c9c5c5;
+    margin-left: 10px;
+    font-size: 21px;
+    font-weight: 300;
+}
